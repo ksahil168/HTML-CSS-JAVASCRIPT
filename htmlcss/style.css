@@ -1,169 +1,219 @@
-body{
-margin: 0;
-padding: 0;
-font-family:Arial, Helvetica, sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.menu{
-    max-width: 1400px;
-    margin: auto;
-    padding: 15px 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: end  ; 
-    background-color: rgb(57, 43, 220);
-    font-family:Arial, Helvetica, sans-serif;
+.menu {
+  max-width: 1400px;
+  margin: auto;
+  padding: 15px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  background-color: rgb(57, 43, 220);
+  font-family: Arial, Helvetica, sans-serif;
 }
 /* div{
     border: 2px solid grey;
     padding: 5px;
 } */
-.menu-item2{
-    color: #ffffffcc;
-    font-weight: bold;
-    padding: 10px 20px;
-    font-size: 0.9rem;
+.menu-item2 {
+  color: #ffffffcc;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 0.9rem;
 }
-.menu-item2:hover{
-    color:white;
-    cursor:pointer;
-}
-
-.container{
-    background-color: rgb(57, 43, 220);
-    
+.menu-item2:hover {
+  color: white;
+  cursor: pointer;
 }
 
-.round-button{
-
-border: 2px solid;
-border-radius: 30px;
-padding: 10px 32px;
-margin: 0 15px;
+.container {
+  background-color: rgb(57, 43, 220);
 }
 
-.round-button:hover{
-    color:rgb(57, 43, 220);
-    background-color: white;
+.round-button {
+  border: 2px solid;
+  border-radius: 30px;
+  padding: 10px 32px;
+  margin: 0 15px;
 }
-.logo
-{
-    font-size: 2rem ;
-    color :  #ffffffcc;
-    font-weight: bold;
-   margin-right: auto;
-   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-  
 
+.round-button:hover {
+  color: rgb(57, 43, 220);
+  background-color: white;
+}
+.logo {
+  font-size: 2rem;
+  color: #ffffffcc;
+  font-weight: bold;
+  margin-right: auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 /* home css*/
-.home{
-    display: flex;
-    background-color:rgb(57, 43, 220) ;
-    position: relative;
-    bottom: 25px;
-    max-width: 1100px;
-    margin:auto;
-    padding-top: 1px;
-    color: white;
-    font-family:Arial, Helvetica, sans-serif;
+.home {
+  display: flex;
+  background-color: rgb(57, 43, 220);
+  position: relative;
+  bottom: 25px;
+  max-width: 1100px;
+  margin: auto;
+  padding-top: 1px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.title-graphics img{
-    max-width: 600px;
-  
+.title-graphics img {
+  max-width: 600px;
 }
 
-.title{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.title h1{
-    font-size: 3.5rem;
-    margin: 0;
+.title h1 {
+  font-size: 3.5rem;
+  margin: 0;
 }
-.title p{
-    font-size: 1.1rem;
-    padding: 10px 0;
-
+.title p {
+  font-size: 1.1rem;
+  padding: 10px 0;
 }
 
-.signup-button{
+.signup-button {
+  border: 2px solid white;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  padding: 10px 35px;
+  margin: 0 10px;
+  background-color: white;
+  color: rgb(57, 43, 220);
+}
 
-    border: 2px solid white;
-    border-radius: 30px;
-    font-size: 1.1rem;
-    padding: 10px 35px;
-    margin: 0 10px;
-    background-color: white;
-    color: rgb(57, 43, 220) ;
-    }
-    
-.signup-button:hover{
-        color:white; 
-        background-color: rgb(57, 43, 220);
-    }
-.header-frame{
-position: relative;
-/* bottom: 1px; */
- top: -18px
+.signup-button:hover {
+  color: white;
+  background-color: rgb(57, 43, 220);
+}
+.header-frame {
+  position: relative;
+  /* bottom: 1px; */
+  top: -18px;
 }
 
 /* description */
-.marketing, .cards{
-    max-width: 1300px;
-    margin: auto;
-    
+.marketing,
+.cards {
+  max-width: 1300px;
+  margin: auto;
 }
-.marketing h2{
-    font-size: 2rem;
-    text-align: center;
-    max-width: 600px;
-    margin: 50px auto;
-    
+.marketing h2,
+.price-title h2 {
+  font-size: 2rem;
+  text-align: center;
+  max-width: 600px;
+  margin: 50px auto;
 }
-.cards{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    /* border: solid; */
-     
-    
-    
-    
-   
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* border: solid; */
 }
-.marketing-card{
- 
-    max-width: 60%;
-   /*  border: solid; */
-    /* margin-left: 50px; */
-
+.marketing-card {
+  max-width: 60%;
+  /*  border: solid; */
+  /* margin-left: 50px; */
 }
 
-.marketing-card img{
-    width: 80%;
-    
-   /*  border: solid */
- 
+.marketing-card img {
+  width: 80%;
+
+  /*  border: solid */
 }
 
-.marketing-card div{
-    text-align: center;
-    line-height: 1.4rem;
+.marketing-card div {
+  text-align: center;
+  line-height: 1.4rem;
 }
 
-.title-text{
-    
-    font-size: 1.4rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-
-
+.title-text {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
-.soft{
-    color: grey;
+.soft {
+  color: grey;
+}
+
+/* pricing css */
+#pricing {
+  max-width: 1100px;
+  margin: 80px auto;
+}
+
+.price-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.price-card {
+  max-width: 40%;
+  padding: 60px;
+  border: 3px solid grey;
+  border-radius: 10px;
+}
+
+.price-info {
+  text-align: center;
+}
+.plan {
+  color: purple;
+  font-weight: bold;
+  margin: 20px;
+  font-size: 1.4rem;
+}
+.price {
+  color: black;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.trial {
+  color: grey;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.features {
+  line-height: 2rem;
+  padding-left: 10px;
+  color: grey;
+}
+.action {
+  text-align: center;
+}
+.action button {
+  border: 2px solid rgb(57, 43, 220);
+  background-color: rgb(57, 43, 220);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 2px solid;
+
+  border-radius: 30px;
+  padding: 10px 32px;
+  margin: 0 15px;
+}
+
+.action button:hover {
+  background-color: white;
+  color: rgb(57, 43, 220);
+  font-size: 1rem;
+  font-weight: bold;
 }
