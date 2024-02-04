@@ -101,7 +101,7 @@ body {
 .header-frame {
   position: relative;
   /* bottom: 1px; */
-  top: -18px;
+  top: -14px;
 }
 
 /* description */
@@ -298,4 +298,47 @@ body {
   max-width: 600px;
   margin: auto;
   margin-bottom: 50px;
+}
+
+/* footer section */
+#footer {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  color: white;
+}
+
+.footer-section {
+  width: 600px;
+}
+
+.footer-section h3 {
+  font-size: 1.2rem;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding-left: 20px;
+}
+.react ul {
+  list-style: square;
+}
+
+.light-hr {
+  background-color: white;
+}
+
+.copyright {
+  margin: auto;
+  width: 1000px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.footer-frame {
+  position: relative;
+  top: 10px;
 }
