@@ -150,7 +150,8 @@ body {
 }
 
 /* pricing css */
-#pricing {
+#pricing,
+#testimonials {
   max-width: 1100px;
   margin: 80px auto;
 }
@@ -216,4 +217,42 @@ body {
   color: rgb(57, 43, 220);
   font-size: 1rem;
   font-weight: bold;
+}
+
+/* Testimonials section */
+.testimonials {
+  display: flex;
+}
+
+.testimonials {
+  max-width: 1000px;
+  margin: 80px auto;
+  display: flex;
+}
+
+/* #testimonials{
+  display: flex;
+} */
+
+.profile-image img {
+  border-radius: 50%;
+  max-width: 150px;
+}
+
+.feedback {
+  margin-left: 20px;
+}
+
+.feedback p {
+  color: grey;
+  font-style: italic;
+
+  line-height: 20px;
+}
+
+.feedback p.name {
+  color: rgb(68, 44, 44);
+  font-style: normal;
+  font-weight: bold;
+  line-height: 20px;
 }
