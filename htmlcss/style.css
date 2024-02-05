@@ -67,6 +67,49 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+@media only screen and (min-width: 1000px) {
+  .title-graphics img {
+    max-width: 650px;
+    margin-top: 60px;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /*  margin-top: 210px; */
+  }
+}
+
+/* this @media is for resizing the content according to the mobile */
+@media only screen and (max-width: 1000px) {
+  #home {
+    flex-direction: column-reverse;
+  }
+  .title-graphics {
+    text-align: center;
+  }
+
+  .title-graphics img {
+    max-width: 90%;
+    position: relative;
+    bottom: -18px;
+    z-index: 1;
+    margin: auto;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+
+    /*  margin-top: 210px; */
+  }
+}
+
 .title-graphics img {
   max-width: 650px;
   margin-top: 60px;
@@ -161,6 +204,7 @@ body {
 }
 
 /* pricing css */
+
 #pricing,
 #testimonials,
 #subscribe {
@@ -168,17 +212,37 @@ body {
   margin: 100px auto;
 }
 
-.price-cards {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+@media only screen and (min-width: 800px) {
+  .price-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .price-card {
+    max-width: 40%;
+    padding: 60px;
+    border: 3px solid grey;
+    border-radius: 10px;
+  }
 }
 
-.price-card {
-  max-width: 40%;
-  padding: 60px;
-  border: 3px solid grey;
-  border-radius: 10px;
+@media only screen and (max-width: 1000px) {
+  .price-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .price-card {
+    max-width: 400px;
+    width: 70%;
+    padding: 40px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 50px;
+  }
 }
 
 .price-card:hover {
